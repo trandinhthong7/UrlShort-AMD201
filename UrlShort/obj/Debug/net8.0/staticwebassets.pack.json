@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/macbook/Downloads/STUDY/Advanced Microservices Development and Deployment/UrlShort/UrlShort/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/macbook/Downloads/STUDY/Advanced Microservices Development and Deployment/UrlShort/UrlShort/wwwroot/script.js",
+      "PackagePath": "staticwebassets/script.js"
+    },
+    {
+      "Id": "/Users/macbook/Downloads/STUDY/Advanced Microservices Development and Deployment/UrlShort/UrlShort/wwwroot/story.png",
+      "PackagePath": "staticwebassets/story.png"
+    },
+    {
+      "Id": "/Users/macbook/Downloads/STUDY/Advanced Microservices Development and Deployment/UrlShort/UrlShort/wwwroot/styles.css",
+      "PackagePath": "staticwebassets/styles.css"
+    },
+    {
+      "Id": "/Users/macbook/Downloads/STUDY/Advanced Microservices Development and Deployment/UrlShort/UrlShort/wwwroot/vio.mp4",
+      "PackagePath": "staticwebassets/vio.mp4"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.UrlShort.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.UrlShort.props",
+      "PackagePath": "build\\UrlShort.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.UrlShort.props",
+      "PackagePath": "buildMultiTargeting\\UrlShort.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.UrlShort.props",
+      "PackagePath": "buildTransitive\\UrlShort.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

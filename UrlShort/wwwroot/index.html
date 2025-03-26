@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="logo"></div>
+    <div class="container">
+        <header>
+            <h1>URL Shortener</h1>
+            <p>Strengthen digital connections with our URL shortener and landing pages — engage your audience and track everything in one place.</p>
+        </header>
+
+        <main>
+            <div class="url-form">
+                <div class="input-group">
+                    <input type="url" id="urlInput" placeholder="Enter your long URL here" required>
+
+                    <button id="shortenBtn">Shorten URL</button>
+                </div>
+                <div id="result" class="result-container hidden">
+                    <div class="result-group">
+                        <input type="text" id="shortUrl" readonly>
+                        <button id="copyBtn">Copy</button>
+                    </div>
+                    <a id="shortUrlLink" href="#" target="_blank" class="test-link">Test the link</a>
+                </div>
+            </div>
+
+            <h2 style="margin-top: 30px;">Shortened Links</h2>
+            <table id="linkTable">
+                <thead>
+                    <tr>
+                        <th>Long URL</th>
+                        <th>Short URL</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="linkList">
+                    <!-- Data will be inserted here -->
+                </tbody>
+            </table>
+
+
+
+        </main>
+
+        <div class="card_social">
+            <p>More Info</p>
+            <a href="https://www.facebook.com/TrDi.Th12/">
+                <div class="layer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fab fa-facebook-f"></span>
+                </div>
+
+            </a>
+            <a href="https://www.youtube.com/@UncleBinfromdehood">
+                <div class="layer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fab fa-youtube"></span>
+                </div>
+
+            </a>
+            <a href="https://www.linkedin.com/in/%C4%91%C3%ACnh-th%C3%B4ng-tr%E1%BA%A7n-72a501251/">
+                <div class="layer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span  class="fa-brands fa-linkedin"></span>
+                </div>
+
+            </a>
+            <a href="https://github.com/trandinhthong7">
+                <div class="layer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fab fa-github"></span>
+                </div>
+
+            </a>
+        </div>
+
+
+        <footer>
+            <p>TLT Developẻ and codẻ with love</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+    <video autoplay muted loop id="background-video">
+        <source src="vio.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
